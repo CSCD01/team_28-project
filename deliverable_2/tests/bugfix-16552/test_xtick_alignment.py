@@ -9,7 +9,7 @@ def test_xtickalign_validation_rcparams():
     with pytest.raises(ValueError):
         mpl.rcParams['xtick.alignment'] = 'top'
         
-@check_figures_equal()
+@check_figures_equal(extensions=['png'])
 def test_left_xtick(fig_test, fig_ref):
     labels = range(0, 100, 10)
     fig_test.subplots()
@@ -20,7 +20,7 @@ def test_left_xtick(fig_test, fig_ref):
     ax2 = fig_ref.axes
     ax2[0].set_xticklabels(labels)
     
-@check_figures_equal()
+@check_figures_equal(extensions=['png'])
 def test_right_xtick(fig_test, fig_ref):
     labels = range(0, 100, 10)
     fig_test.subplots()
@@ -31,7 +31,7 @@ def test_right_xtick(fig_test, fig_ref):
     ax2 = fig_ref.axes
     ax2[0].set_xticklabels(labels)
     
-@check_figures_equal()
+@check_figures_equal(extensions=['png'])
 def test_center_xtick(fig_test, fig_ref):
     labels = range(0, 100, 10)
     fig_test.subplots()
