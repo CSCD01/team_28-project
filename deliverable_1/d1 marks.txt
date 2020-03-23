@@ -1,0 +1,10 @@
+team_28 Deliverable 1 and Interview Marks
+
+Report: 36/40
+  -Overall Architecture: 13/15
+  -Software Process: 14/15
+  -Presentation and Quality of Writing: 10/10
+Comments: Good understanding of architecture, but UML has an arrow from backend to artist layer when it should be the opposite. UML is too cluttered. Inconsistent evaluations of the software processes - daily meetings are only listed as a pro in Kanban but is both a pro and a con in Scrum.
+
+Interview: 8/10
+Comments: Didn't answer the right question; commented on how code documentation was lacking, which has nothing to do with the design.
